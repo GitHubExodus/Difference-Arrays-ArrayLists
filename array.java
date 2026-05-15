@@ -1,12 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        // Array with predefined names (no user input)
+        // array of names
         String[] names = {"Matthew", "James", "Peter", "John", "Andrew", "Philip"};
 
-        System.out.println("Names:");
+        System.out.println("names:");
 
-        // Display names with numbering
+        // Display names
         for (int i = 0; i < names.length; i++) {
             System.out.println((i + 1) + ". " + names[i]);
         }
